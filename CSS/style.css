@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     background-color: #EDF2C5;
 }
@@ -15,19 +20,84 @@ header h1 {
     height: 42px;
 }
 
-img#pumpkin{
-    margin-left: 160px;
-    margin-right: 160px;
+#pumpkin{
+    width: 100%;
+}
+
+article {
+    margin: 10px 160px 15px 160px;
+    max-width: 940px;
+}
+
+article .title {
+    padding: 15px 0 15px 30px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+
+article .title h2 {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Arial Black';
+    color: #EDF2C5;
+}
+
+#pictures {
+    margin: 15px auto 35px 0;
+    float: left;
+    width: 445px;
+}
+
+#pictures img {
+    display: block;
+    margin: 15px 12px 0 0;
+    float: left;
+}
+
+#pictures .right{
+    margin-right: 0;
+}
+
+#contact {
+    margin: 15px 0 35px auto;
+    float: right;
+    width: 445px;
+}
+
+#contact .contact-body{
+    margin-top: 15px;
+    padding: 16px 16px 4px 15px;
+    background-color: #F7FBDA;
+}
+
+#contact .contact-body .text{
+    margin: 0;
+    font-size: 12px;
+    font-family: 'ArialMT Regular';
+    line-height: 1.33;
+    color: #7D7D7D;
+    
+}
+#contact .contact-body hr{
+    margin: 16px 0; 
+    border-bottom: 0px #7D7D7D;
+    
+}
+
+#contact .contact-body .connection{
+    margin: 0;
+    font-size: 12px;
+    font-family: 'ArialMT Regular';
+    line-height: 1.83;
+    color: #7D7D7D;
+    
 }
 
 footer {
-	text-align: center;
+    clear: both;
     font-size: 12px;
     font-family: 'ArialMT Regular';
     color: #EDF2C5;
     background-color: #778A50;
-	padding-bottom: 25px;
-    padding-top: 24px;
-    padding-left: 479px;
-    padding-right: 479px
+    padding: 24px 479px 25px 479px;
 }
