@@ -1,36 +1,33 @@
 html {
     background-color: #EDF2C5;
 }
-.site-nav {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #778A50;
+
+header {
+    margin: 53px 160px 8px 160px;
+    max-width: 940px;
 }
 
-.site-nav ul {
-	margin: 0;
-	padding: 0;
+header h1 {
+    display: inline-block;
+    font-family: 'Arial Black';
+    font-size: 36px;
+    color: #778A50;
+    height: 42px;
 }
 
-.site-nav li {
-    list-style: none;
-    float: left;
-    margin: 16px 30px;
-}
-
-.site-nav a {
-    display: block;
-    font-family: "Arial Block";
-    font-size: 16px;
-    color: #EDF2C5;
+img#pumpkin{
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 footer {
 	text-align: center;
-	font-size: 12px;
+    font-size: 12px;
+    font-family: 'ArialMT Regular';
     color: #EDF2C5;
     background-color: #778A50;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 25px;
+    padding-top: 24px;
+    padding-left: 479px;
+    padding-right: 479px
 }
