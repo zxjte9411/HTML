@@ -18,6 +18,61 @@ header h1 {
     font-size: 36px;
     color: #778A50;
     height: 42px;
+    /* margin-bottom:8px;  */
+}
+
+.btn {
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.btn a {
+    display: block;
+    margin-left: 10px;
+    float: left;
+}
+
+.btn hr {
+    margin-left: 10px;
+    border-right: 1px #778A50;
+    float: left;
+    height: 23px;
+}
+
+button {
+    display: block;
+    background-color: #EDF2C5;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #778A50; 
+    padding: 0 7px;
+    float: left;
+    height: 25px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #778A50;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 16px 15px;
+    border-radius: 3px;
+}
+
+nav li {
+    display: inline;
+    margin: 15px 30px;
+}
+
+nav li a {
+    color: #EDF2C5;
+    font-family: 'Arial Black';
+    font-size: 16px;
+    text-decoration: none;
 }
 
 #pumpkin{
