@@ -5,6 +5,7 @@
 
 html {
     background-color: gray;
+    padding-bottom: 0;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     padding-top: 53px;
     margin-left:auto;
     margin-right:auto;
+    padding-bottom: 10px;
 }
 
 header {
