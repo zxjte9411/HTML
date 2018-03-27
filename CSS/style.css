@@ -145,13 +145,14 @@ article .title h2 {
 
 #contact .contact-body{
     margin-top: 15px;
-    padding: 16px 16px 4px 15px;
     background-color: #F7FBDA;
     height: 120px;
+    padding: 15px 18px 4px 15px;
 }
 
 #contact .contact-body .text{
     margin: 0;
+    padding: 0px 5px;
     font-size: 12px;
     font-family: 'ArialMT Regular',sans-serif;
     line-height: 1.33;
@@ -159,14 +160,15 @@ article .title h2 {
     
 }
 #contact .contact-body hr{
-    margin: 16px 0; 
+    margin: 16px 0 8px 0; 
     border-bottom: 0px #7D7D7D;
-    
 }
 
 #contact .contact-body .connection{
+    display: block;
     margin: 0;
     font-size: 12px;
+    padding: 0px 5px;
     font-family: 'ArialMT Regular',sans-serif;
     line-height: 1.83;
     color: #7D7D7D;
