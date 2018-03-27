@@ -79,7 +79,8 @@ nav {
     display: block;
     background-color: #778A50;
     margin-top: 8px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 8px;
     border-radius: 3px;
     clear: both;
     height: 44px;
@@ -99,6 +100,7 @@ nav li a {
 }
 
 #pumpkin{
+    margin-top: 20px;
     width: 100%;
 }
 
