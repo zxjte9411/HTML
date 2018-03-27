@@ -4,21 +4,31 @@
 }
 
 html {
+    background-color: gray;
+}
+
+body {
     background-color: #EDF2C5;
+    width: 1264px;
+    height: 827px;
+    padding-top: 53px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 header {
-    margin: 53px 160px 8px 160px;
+    margin: 0px 160px 8px 160px;
     max-width: 940px;
 }
 
 header h1 {
     display: inline-block;
     font-family: 'Arial Black';
-    font-size: 36px;
+    font-size: 36px; 
     color: #778A50;
+    letter-spacing: 5.5px;
     height: 42px;
-    /* margin-bottom:8px;  */
+    width: 271px;
 }
 
 .btn {
@@ -47,7 +57,7 @@ button {
     border-radius: 3px;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Arial';
+    font-family: 'ArialMT Regular',sans-serif;
     color: #778A50; 
     padding: 0 7px;
     float: left;
@@ -55,17 +65,30 @@ button {
     margin-left: 10px;
 }
 
+button.login{
+    display: block;
+    width: 60px;
+}
+
+button.join{
+    display: block;
+    width: 50px;
+}
+
 nav {
+    display: block;
     background-color: #778A50;
     margin-top: 8px;
     margin-bottom: 20px;
-    padding: 16px 15px;
     border-radius: 3px;
+    clear: both;
+    height: 44px;
 }
 
 nav li {
-    display: inline;
-    margin: 15px 30px;
+    list-style: none;
+    float: left;
+    margin: 16px 30px;
 }
 
 nav li a {
@@ -88,6 +111,7 @@ article .title {
     padding: 15px 0 15px 30px;
     background-color: #778A50;
     border-radius: 3px;
+    height: 15px;
 }
 
 article .title h2 {
@@ -123,12 +147,13 @@ article .title h2 {
     margin-top: 15px;
     padding: 16px 16px 4px 15px;
     background-color: #F7FBDA;
+    height: 120px;
 }
 
 #contact .contact-body .text{
     margin: 0;
     font-size: 12px;
-    font-family: 'ArialMT Regular';
+    font-family: 'ArialMT Regular',sans-serif;
     line-height: 1.33;
     color: #7D7D7D;
     
@@ -142,7 +167,7 @@ article .title h2 {
 #contact .contact-body .connection{
     margin: 0;
     font-size: 12px;
-    font-family: 'ArialMT Regular';
+    font-family: 'ArialMT Regular',sans-serif;
     line-height: 1.83;
     color: #7D7D7D;
     
@@ -151,7 +176,7 @@ article .title h2 {
 footer {
     clear: both;
     font-size: 12px;
-    font-family: 'ArialMT Regular';
+    font-family: 'ArialMT Regular',sans-serif;
     color: #EDF2C5;
     background-color: #778A50;
     padding: 24px 479px 25px 479px;
